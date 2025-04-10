@@ -1,7 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background: url("https://raw.githubusercontent.com/DevEnvolvente0190/TelaLogin-Netflix/cc0dd8452ddaaf1cfa229ff8146e5b2b49d7edca/img/background.jpg") center center fixed;
     backdrop-filter: blur(2px);
-    font-family: 'Roboto', sans-serif;
+    height: 100dvh;
+}
+
+.titulo-pagina-login {
+    color: red;
+    text-align: center;
+    font-size: 30px;
 }
 
 .loginPage {
@@ -23,5 +35,13 @@ body {
         border-radius: 4px;
         background-color: white;
         color: black;
+    }
+
+    & .botao-enviar {
+        cursor: pointer;
+    }
+
+    & .botao-enviar:hover {
+        background-color: rgb(223, 223, 223);
     }
 }
