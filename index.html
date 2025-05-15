@@ -5,38 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Login - AnalisfilM</title>
+    <title>Login - AnalisFilm</title>
 </head>
 
 <body>
-    <h3 class="titulo-pagina-login">Login - AnalisfilM</h3>
+    <h1 class="titulo-pagina-login">AnalisFilm</h3>
 
-    <div class="loginPage">
+    <section class="container">
 
-        <form class="loginForm">
+        <div class="login">
 
-            <input type="text" placeholder="Login" id="login"><br>
-            <input type="password" placeholder="Senha" id="senha"><br>
-            <input type="tel" placeholder="Telefone" id="telefone"><br>
-            <input type="email" placeholder="Email" id="email"><br>
-            <button onclick="logar()" return false>
-                Entrar
-            </button>
-        </form>
-    </div>
+
+            <h2>Entrar</h2>
+
+                <form class="loginForm">
+    
+                    <input type="text" placeholder="Login" id="login"><br>
+                    <input type="password" placeholder="Senha" id="senha"><br>
+                    <input type="tel" placeholder="Telefone" id="telefone"><br>
+                    <input type="email" placeholder="Email" id="email"><br>
+                    <button class="botao_login" onclick="logar()" return false>
+                        Entrar
+                    </button>
+
+                </form>
+
+        </div>
+
+    </section>
+    
 
     <script>
 
-        function logar() {
+        function logar(){
+
             var login = document.getElementById('login').value;
             var senha = document.getElementById('senha').value;
 
-            if (login == "admin" && senha == "admin") {
-                alert("Sucesso!");
-                location.href('home.html');
-            } else {
-                alert("Usuário ou senha incorreto!");
+            if(login == "admin" && senha == "admin"){
+                alert('Sucesso');
+                location.href = "home.html";
+            }else{
+                alert('Usuario ou senha incorretos');
             }
+
         }
 
     </script>
