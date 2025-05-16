@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     width: 100vh;
-    background: url("https://raw.githubusercontent.com/kauasanches/streaming-site/refs/heads/main/img/background.png") center top;
+    background: url('./img/background.png') center top;
     background-image: cover;
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
