@@ -9,7 +9,10 @@
 </head>
 
 <body>
-    <h1 class="titulo-pagina-login">AnalisFilm</h3>
+    <header>
+        <h1 class="titulo-pagina-login">AnalisFilm</h3>
+    </header>
+    
 
     <section class="container">
 
@@ -24,9 +27,7 @@
                     <input type="password" placeholder="Senha" id="senha"><br>
                     <input type="tel" placeholder="Telefone" id="telefone"><br>
                     <input type="email" placeholder="Email" id="email"><br>
-                    <button class="botao_login" onclick="logar()" return false>
-                        Entrar
-                    </button>
+                    <input type="submit" onclick="logar(); return false" id="btnLogin" value="Entrar">
 
                 </form>
 
@@ -34,7 +35,6 @@
 
     </section>
     
-
     <script>
 
         function logar(){
@@ -43,15 +43,16 @@
             var senha = document.getElementById('senha').value;
 
             if(login == "admin" && senha == "admin"){
-                alert('Sucesso');
-                location.href = "home.html";
+                alert('Login realizado com sucesso!'); 
+                location.href = "home.html"; //Redireciona para a página inicial
             }else{
-                alert('Usuario ou senha incorretos');
+                alert('Usuário ou senha incorretos.'); // Exibe a mensagem de erro
             }
 
         }
 
     </script>
+    
 </body>
 
 </html>
