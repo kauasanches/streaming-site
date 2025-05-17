@@ -5,35 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Login - AnalisFilm</title>
+    <title>Login - AnalisfilM</title>
 </head>
 
 <body>
-    <header>
-        <h1 class="titulo-pagina-login">AnalisFilm</h1>
-    </header>
-    
+    <div class="cabecalho">
+        <header>
+            <h1 class="titulo-pagina-login">AnalisfilM</h1>
+        </header>
+    </div>
 
-    <section class="container">
+    <div class="container">
+        <section class="login">
 
-        <div class="login">
 
 
             <h2>Entrar</h2>
-
-                <form class="loginForm">
     
+                <form class="loginForm">
+        
                     <input type="text" placeholder="Login" id="login"><br>
                     <input type="password" placeholder="Senha" id="senha"><br>
                     <input type="tel" placeholder="Telefone" id="telefone"><br>
                     <input type="email" placeholder="Email" id="email"><br>
                     <input type="submit" onclick="logar(); return false" id="btnLogin" value="Entrar">
-
+    
                 </form>
-
-        </div>
-
-    </section>
+    
+    
+        </section>
+    </div>
+    
+    
     
     <script>
 
