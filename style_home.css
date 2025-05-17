@@ -96,15 +96,17 @@ body {
 .title-slider  h3{
     font-size: 22px;
     color: rgb(255, 255, 255);
-    text-align: center;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 .container-slider {
     display: flex;
     width: 100%;
-    min-height: 70vh;
+    min-height: 65vh;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 1rem;
 }
 
@@ -113,7 +115,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 700px;
+    width: 600px;
 }
 
 .slider {
@@ -150,10 +152,21 @@ body {
     transform: rotate(180deg)
 }
 
+.bar {
+    background-color: red;
+    padding: 75px 1px;
+}
+
+.desc-slider {
+    color: rgb(167, 167, 167);
+    font-size: 15px;
+}
+
 .catalog-name {
     color: white;
     font-size: 1.5rem;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
     text-decoration: underline;
     text-decoration-color: red;
 }
