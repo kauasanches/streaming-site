@@ -20,43 +20,45 @@
         <section class="login">
 
 
+            <div class="painel-login">
+                <h2>Entrar</h2>
 
-            <h2>Entrar</h2>
-    
                 <form class="loginForm">
-        
+
                     <input type="text" placeholder="Login" id="login"><br>
                     <input type="password" placeholder="Senha" id="senha"><br>
                     <input type="tel" placeholder="Telefone" id="telefone"><br>
                     <input type="email" placeholder="Email" id="email"><br>
                     <input type="submit" onclick="logar(); return false" id="btnLogin" value="Entrar">
-    
+
                 </form>
-    
-    
+            </div>
+
+
+
         </section>
     </div>
-    
-    
-    
+
+
+
     <script>
 
-        function logar(){
+        function logar() {
 
             var login = document.getElementById('login').value;
             var senha = document.getElementById('senha').value;
 
-            if(login == "admin" && senha == "admin"){
-                alert('Login realizado com sucesso!'); 
+            if (login == "admin" && senha == "admin") {
+                alert('Login realizado com sucesso!');
                 location.href = "home.html"; //Redireciona para a página inicial
-            }else{
+            } else {
                 alert('Usuário ou senha incorretos.'); // Exibe a mensagem de erro
             }
 
         }
 
     </script>
-    
+
 </body>
 
 </html>

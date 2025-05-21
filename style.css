@@ -43,7 +43,7 @@ body:before {
     text-align: right;
 }
 
-.login {
+.painel-login {
     padding: 30px;
     z-index: 90;
     position: relative;
@@ -52,23 +52,23 @@ body:before {
     margin-left: 50%;
     background-color: rgb(0, 0, 0, 0.6);
     backdrop-filter: blur(5px);
-    transform: translate(60%, 30%);
+    transform: translate(80%, 30%);
     border-radius: 10px;
     box-shadow: #333 0px 0px 15px;
 }
 
-.login h2 {
+.painel-login h2 {
     color: #fff;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.login .loginForm {
+.painel-login .loginForm {
     display: flex;
     flex-direction: column;
 }
 
-.login .loginForm input {
+.painel-login .loginForm input {
     height: 35px;
     width: 100%;
     color: #fff;
@@ -80,17 +80,17 @@ body:before {
     box-shadow: black 0px 0px 10px;
 }
 
-.login .loginForm input:hover {
+.painel-login .loginForm input:hover {
     background-color: #444;
     transition: 0.2s;
 
 }
 
-.login .loginForm input:focus {
+.painel-login .loginForm input:focus {
     background-color: #444;
 }
 
-.login .loginForm #btnLogin {
+.loginForm #btnLogin {
     height: 40px;
     width: 100%;
     background-color: #e50914;
@@ -102,7 +102,7 @@ body:before {
     border-radius: 10px;
 }
 
-.container .loginForm #btnLogin:hover {
+.loginForm #btnLogin:hover {
     cursor: pointer;
     background-color: #af0710;
     transform: scale(1.04);
