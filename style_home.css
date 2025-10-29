@@ -186,7 +186,7 @@ body {
 }
 
 .catalog-img:hover {
-    box-shadow: 0px 0px 10px  2px red;
+    box-shadow: 0px 0px 10px red;
     cursor: pointer;
     transform: scale(1.02);
 }
@@ -231,4 +231,5 @@ body {
 .img-perfil {
     border-radius: 50%;
     box-shadow: 0px 0px 15px red;
+
 }
