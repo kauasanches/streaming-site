@@ -117,10 +117,10 @@ body {
     align-items: center;
     justify-content: center;
     width: 600px;
+    transition: 0.2s ease-in-out;
 }
 
 .container-imgs:hover {
-    transition: 0.2s;
     transform: scale(1.02);
 }
 
@@ -182,12 +182,12 @@ body {
     border-radius: 5px;
     border: 1px solid rgb(85, 85, 85);
     margin: 5px;
+    transition: 0.2s ease-in-out;
 }
 
 .catalog-img:hover {
     box-shadow: 0px 0px 10px  2px red;
     cursor: pointer;
-    transition: 0.2s;
     transform: scale(1.02);
 }
 
@@ -196,12 +196,12 @@ body {
     border: 1px solid rgb(85, 85, 85);
     border-radius: 5px;
     margin: 5px;
+    transition: 0.2s ease-in-out;
 }
 
 .catalog-img-terror:hover {
     box-shadow: 0px 0px 10px 2px red;
     cursor: pointer;
-    transition: 0.2s;
     transform: scale(1.02);
 }
 
